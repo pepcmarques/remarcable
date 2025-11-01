@@ -1,0 +1,998 @@
+{
+  "categories": [
+    { "name": "Cleaning" },
+    { "name": "Electrical" },
+    { "name": "Gardening" },
+    { "name": "Hardware" },
+    { "name": "Lighting" },
+    { "name": "Paint" },
+    { "name": "Plumbing" },
+    { "name": "Safety" },
+    { "name": "Storage" },
+    { "name": "Tools" }
+  ],
+  "tags": [
+    { "name": "Adjustable" },
+    { "name": "Budget-friendly" },
+    { "name": "Classic" },
+    { "name": "Compact" },
+    { "name": "DIY" },
+    { "name": "Durable" },
+    { "name": "Eco-friendly" },
+    { "name": "Ergonomic" },
+    { "name": "Handheld" },
+    { "name": "Heavy-duty" },
+    { "name": "High-quality" },
+    { "name": "Indoor" },
+    { "name": "Innovative" },
+    { "name": "Lightweight" },
+    { "name": "Multi-purpose" },
+    { "name": "Outdoor" },
+    { "name": "Power" },
+    { "name": "Professional" },
+    { "name": "Versatile" },
+    { "name": "Waterproof" }
+  ],
+  "products": [
+    {
+      "name": "Hammer",
+      "category_name": "Tools",
+      "tags": ["Professional", "Waterproof", "Versatile", "Eco-friendly"],
+      "description": "A sturdy and reliable hammer designed for driving nails into wood and other materials, providing excellent performance for both professional carpenters and DIY enthusiasts.",
+      "price": 15.99,
+      "stock_count": 100
+    },
+    {
+      "name": "Drill",
+      "category_name": "Tools",
+      "tags": ["Compact", "Heavy-duty", "Budget-friendly"],
+      "description": "A powerful electric drill with variable speed settings, perfect for making holes in various materials, ideal for construction and home improvement projects.",
+      "price": 49.99,
+      "stock_count": 50
+    },
+    {
+      "name": "Wrench",
+      "category_name": "Tools",
+      "tags": ["Multi-purpose", "Outdoor"],
+      "description": "A handheld tool for turning bolts.",
+      "price": 12.5,
+      "stock_count": 75
+    },
+    {
+      "name": "Screwdriver Set",
+      "category_name": "Tools",
+      "tags": ["Versatile", "Ergonomic", "Lightweight", "Durable"],
+      "description": "A set of tools for driving screws.",
+      "price": 25.0,
+      "stock_count": 60
+    },
+    {
+      "name": "Pipe Cutter",
+      "category_name": "Plumbing",
+      "tags": ["Heavy-duty", "Ergonomic", "Professional"],
+      "description": "A tool for cutting pipes.",
+      "price": 18.75,
+      "stock_count": 40
+    },
+    {
+      "name": "Faucet",
+      "category_name": "Plumbing",
+      "tags": ["Innovative", "Ergonomic", "Multi-purpose", "Heavy-duty"],
+      "description": "A device for controlling water flow.",
+      "price": 35.0,
+      "stock_count": 30
+    },
+    {
+      "name": "Shower Head",
+      "category_name": "Plumbing",
+      "tags": ["Power", "Indoor"],
+      "description": "A fixture for showering.",
+      "price": 22.99,
+      "stock_count": 45
+    },
+    {
+      "name": "Toilet",
+      "category_name": "Plumbing",
+      "tags": ["Waterproof", "High-quality", "Handheld", "Ergonomic"],
+      "description": "A sanitary fixture for waste disposal.",
+      "price": 150.0,
+      "stock_count": 20
+    },
+    {
+      "name": "Sink",
+      "category_name": "Plumbing",
+      "tags": ["Ergonomic", "Handheld", "Versatile", "Innovative"],
+      "description": "A basin for washing.",
+      "price": 80.0,
+      "stock_count": 25
+    },
+    {
+      "name": "Wire Stripper",
+      "category_name": "Electrical",
+      "tags": ["Eco-friendly", "Ergonomic", "Compact", "DIY"],
+      "description": "A tool for stripping wire insulation.",
+      "price": 9.99,
+      "stock_count": 80
+    },
+    {
+      "name": "Outlet",
+      "category_name": "Electrical",
+      "tags": ["Durable", "Innovative", "Budget-friendly", "Heavy-duty"],
+      "description": "A device for plugging in appliances.",
+      "price": 5.5,
+      "stock_count": 200
+    },
+    {
+      "name": "Light Switch",
+      "category_name": "Electrical",
+      "tags": ["Waterproof", "Eco-friendly", "Classic", "DIY"],
+      "description": "A switch for controlling lights.",
+      "price": 7.25,
+      "stock_count": 150
+    },
+    {
+      "name": "Extension Cord",
+      "category_name": "Electrical",
+      "tags": ["Classic", "Outdoor", "Durable", "Ergonomic"],
+      "description": "A cord for extending electrical reach.",
+      "price": 14.99,
+      "stock_count": 90
+    },
+    {
+      "name": "Circuit Breaker",
+      "category_name": "Electrical",
+      "tags": ["Classic", "Waterproof", "Handheld"],
+      "description": "A safety device for electrical circuits.",
+      "price": 20.0,
+      "stock_count": 35
+    },
+    {
+      "name": "Nails",
+      "category_name": "Hardware",
+      "tags": ["High-quality", "Compact", "Classic"],
+      "description": "Fasteners for wood and other materials.",
+      "price": 8.99,
+      "stock_count": 500
+    },
+    {
+      "name": "Screws",
+      "category_name": "Hardware",
+      "tags": ["Indoor", "Multi-purpose", "Adjustable", "Versatile"],
+      "description": "Threaded fasteners.",
+      "price": 6.75,
+      "stock_count": 300
+    },
+    {
+      "name": "Door Knob",
+      "category_name": "Hardware",
+      "tags": ["Budget-friendly", "Handheld"],
+      "description": "A handle for opening doors.",
+      "price": 11.5,
+      "stock_count": 70
+    },
+    {
+      "name": "Hinge",
+      "category_name": "Hardware",
+      "tags": ["Professional", "Heavy-duty", "Waterproof", "Adjustable"],
+      "description": "A joint for doors and cabinets.",
+      "price": 4.99,
+      "stock_count": 120
+    },
+    {
+      "name": "Lock",
+      "category_name": "Hardware",
+      "tags": ["High-quality", "Ergonomic", "Innovative", "Outdoor"],
+      "description": "A security device for doors.",
+      "price": 19.99,
+      "stock_count": 55
+    },
+    {
+      "name": "Paint Brush",
+      "category_name": "Paint",
+      "tags": ["Adjustable", "Power", "High-quality"],
+      "description": "A high-quality paint brush with soft bristles, designed for smooth and even paint application on various surfaces, ensuring professional results for painting projects.",
+      "price": 3.99,
+      "stock_count": 180
+    },
+    {
+      "name": "Lawn Mower",
+      "category_name": "Gardening",
+      "tags": ["Handheld", "Adjustable"],
+      "description": "A powerful lawn mower with a large cutting deck, designed for efficient grass cutting in residential yards, featuring adjustable height settings and a comfortable handle for easy maneuverability.",
+      "price": 299.99,
+      "stock_count": 15
+    },
+    {
+      "name": "Garden Hose",
+      "category_name": "Gardening",
+      "tags": ["Innovative", "Waterproof", "Professional", "Lightweight"],
+      "description": "A flexible and durable garden hose made from high-quality materials, perfect for watering plants and gardens, with a kink-resistant design and adjustable nozzle for various water flow options.",
+      "price": 24.99,
+      "stock_count": 50
+    },
+    {
+      "name": "LED Bulb",
+      "category_name": "Lighting",
+      "tags": ["Power", "Professional", "Durable", "Ergonomic"],
+      "description": "An energy-efficient LED bulb that provides bright and long-lasting light, with adjustable brightness settings and a cool white color temperature, ideal for home and office lighting.",
+      "price": 5.99,
+      "stock_count": 200
+    },
+    {
+      "name": "Safety Helmet",
+      "category_name": "Safety",
+      "tags": ["Classic", "Indoor", "Multi-purpose", "Outdoor"],
+      "description": "A lightweight safety helmet designed for protection during construction and outdoor activities, featuring an adjustable strap and ventilation for comfort during extended use.",
+      "price": 19.99,
+      "stock_count": 100
+    },
+    {
+      "name": "Cleaning Sponge",
+      "category_name": "Cleaning",
+      "tags": ["Durable", "Adjustable", "Eco-friendly", "Ergonomic"],
+      "description": "A highly absorbent cleaning sponge made from natural materials, perfect for scrubbing and wiping surfaces, with a dual-sided design for different cleaning tasks.",
+      "price": 2.49,
+      "stock_count": 300
+    },
+    {
+      "name": "Storage Bin",
+      "category_name": "Storage",
+      "tags": ["DIY", "Lightweight"],
+      "description": "A sturdy storage bin with a secure lid, ideal for organizing items in closets, garages, or offices, made from durable plastic that resists moisture and damage.",
+      "price": 9.99,
+      "stock_count": 150
+    },
+    {
+      "name": "Pruning Shears",
+      "category_name": "Gardening",
+      "tags": ["Adjustable", "Outdoor", "Versatile", "Ergonomic"],
+      "description": "Sharp and ergonomic pruning shears for trimming plants and shrubs, with a comfortable grip and rust-resistant blades for precise and safe gardening work.",
+      "price": 14.99,
+      "stock_count": 80
+    },
+    {
+      "name": "Floor Lamp",
+      "category_name": "Lighting",
+      "tags": ["High-quality", "Ergonomic"],
+      "description": "A modern floor lamp with adjustable height and angle, providing ambient lighting for living rooms or bedrooms, with a sleek design that complements contemporary decor.",
+      "price": 79.99,
+      "stock_count": 30
+    },
+    {
+      "name": "First Aid Kit",
+      "category_name": "Safety",
+      "tags": ["Durable", "High-quality"],
+      "description": "A comprehensive first aid kit containing bandages, antiseptics, and emergency supplies, designed for home, office, or travel use, ensuring preparedness for minor injuries.",
+      "price": 29.99,
+      "stock_count": 60
+    },
+    {
+      "name": "All-Purpose Cleaner",
+      "category_name": "Cleaning",
+      "tags": ["DIY", "Waterproof", "Outdoor"],
+      "description": "An effective all-purpose cleaner that removes dirt and grime from various surfaces, formulated with natural ingredients for safe and eco-friendly cleaning in homes and offices.",
+      "price": 4.99,
+      "stock_count": 250
+    },
+    {
+      "name": "Plastic Containers",
+      "category_name": "Storage",
+      "tags": ["Compact", "Ergonomic", "Waterproof"],
+      "description": "A set of stackable plastic containers with air-tight lids, perfect for storing food or organizing small items, made from durable and transparent material for easy visibility.",
+      "price": 12.99,
+      "stock_count": 180
+    },
+    {
+      "name": "Fertilizer",
+      "category_name": "Gardening",
+      "tags": ["Eco-friendly", "Indoor", "Professional"],
+      "description": "An organic fertilizer rich in nutrients, designed to promote healthy plant growth and soil health, suitable for gardens, lawns, and indoor plants without harmful chemicals.",
+      "price": 16.99,
+      "stock_count": 75
+    },
+    {
+      "name": "String Lights",
+      "category_name": "Lighting",
+      "tags": ["Heavy-duty", "Professional", "Durable"],
+      "description": "Weatherproof string lights for outdoor decoration, with multiple bulbs that create a warm ambiance for patios, gardens, or holiday displays, powered by safe low-voltage.",
+      "price": 24.99,
+      "stock_count": 55
+    },
+    {
+      "name": "Safety Goggles",
+      "category_name": "Safety",
+      "tags": ["Power", "Eco-friendly", "Professional", "Innovative"],
+      "description": "Adjustable safety goggles with anti-fog lenses, providing eye protection during work with chemicals, dust, or bright lights, comfortable for extended wear.",
+      "price": 8.99,
+      "stock_count": 200
+    },
+    {
+      "name": "Dish Soap",
+      "category_name": "Cleaning",
+      "tags": ["Durable", "Compact", "Adjustable", "Multi-purpose"],
+      "description": "A concentrated dish soap that cuts through grease and grime, with a pleasant scent and biodegradable formula, ideal for washing dishes by hand or in dishwashers.",
+      "price": 3.49,
+      "stock_count": 400
+    },
+    {
+      "name": "Filing Cabinet",
+      "category_name": "Storage",
+      "tags": ["Multi-purpose", "Budget-friendly", "Versatile"],
+      "description": "A lockable filing cabinet with multiple drawers, designed for organizing documents and files in offices, with smooth-gliding drawers and a sturdy metal construction.",
+      "price": 199.99,
+      "stock_count": 10
+    },
+    {
+      "name": "Compost Bin",
+      "category_name": "Gardening",
+      "tags": ["High-quality", "Budget-friendly", "Compact"],
+      "description": "A ventilated compost bin for turning kitchen scraps into nutrient-rich soil, made from durable plastic with easy access for adding materials and harvesting compost.",
+      "price": 39.99,
+      "stock_count": 25
+    },
+    {
+      "name": "Track Lighting",
+      "category_name": "Lighting",
+      "tags": ["Lightweight", "Eco-friendly"],
+      "description": "A track lighting system with adjustable heads, providing flexible and modern lighting for kitchens, galleries, or retail spaces, using energy-efficient LED bulbs.",
+      "price": 99.99,
+      "stock_count": 20
+    },
+    {
+      "name": "Ear Plugs",
+      "category_name": "Safety",
+      "tags": ["DIY", "Ergonomic", "Outdoor", "Professional"],
+      "description": "Reusable ear plugs that reduce noise levels, comfortable for sleeping or working in loud environments, made from soft silicone for a secure and pleasant fit.",
+      "price": 5.99,
+      "stock_count": 300
+    },
+    {
+      "name": "Floor Cleaner",
+      "category_name": "Cleaning",
+      "tags": ["Budget-friendly", "Multi-purpose", "Handheld"],
+      "description": "A concentrated floor cleaner that leaves surfaces streak-free and shiny, suitable for hardwood, tile, and laminate floors, with a fresh scent and easy-to-use formula.",
+      "price": 6.99,
+      "stock_count": 150
+    },
+    {
+      "name": "Bookshelf",
+      "category_name": "Storage",
+      "tags": ["Power", "Handheld", "Eco-friendly", "DIY"],
+      "description": "A stylish bookshelf with adjustable shelves, providing ample space for books and decor, constructed from solid wood for durability and a timeless look.",
+      "price": 129.99,
+      "stock_count": 15
+    },
+    {
+      "name": "Seed Starter Kit",
+      "category_name": "Gardening",
+      "tags": ["Classic", "Budget-friendly", "Eco-friendly"],
+      "description": "A complete seed starter kit with trays, soil, and seeds, perfect for starting plants indoors, including instructions for beginners to grow their own vegetables and flowers.",
+      "price": 19.99,
+      "stock_count": 60
+    },
+    {
+      "name": "Chandelier",
+      "category_name": "Lighting",
+      "tags": ["Power", "Multi-purpose"],
+      "description": "An elegant crystal chandelier with dimmable lighting, adding sophistication to dining rooms or entryways, featuring multiple bulbs for bright and ambient illumination.",
+      "price": 299.99,
+      "stock_count": 5
+    },
+    {
+      "name": "Hard Hat",
+      "category_name": "Safety",
+      "tags": ["Eco-friendly", "Heavy-duty", "Lightweight"],
+      "description": "An ANSI-certified hard hat with ventilation slots, designed for head protection on construction sites, featuring an adjustable suspension system for a comfortable fit.",
+      "price": 24.99,
+      "stock_count": 80
+    },
+    {
+      "name": "Glass Cleaner",
+      "category_name": "Cleaning",
+      "tags": ["Versatile", "Adjustable"],
+      "description": "An ammonia-free glass cleaner that provides streak-free shine on windows and mirrors, with a fast-acting formula that evaporates quickly for hassle-free cleaning.",
+      "price": 4.49,
+      "stock_count": 220
+    },
+    {
+      "name": "Wardrobe Organizer",
+      "category_name": "Storage",
+      "tags": ["Lightweight", "Heavy-duty", "Durable"],
+      "description": "A customizable wardrobe organizer with shelves and hanging rods, maximizing closet space for clothes and accessories, made from sturdy metal for long-lasting use.",
+      "price": 79.99,
+      "stock_count": 30
+    },
+    {
+      "name": "Bird Feeder",
+      "category_name": "Gardening",
+      "tags": ["Compact", "Heavy-duty", "High-quality"],
+      "description": "An attractive bird feeder that attracts wild birds to your garden, with multiple feeding ports and an easy-to-clean design, made from weather-resistant materials.",
+      "price": 29.99,
+      "stock_count": 40
+    },
+    {
+      "name": "Night Light",
+      "category_name": "Lighting",
+      "tags": ["Budget-friendly", "Eco-friendly"],
+      "description": "A soft night light with automatic sensors, providing gentle illumination in hallways or bedrooms, using energy-efficient LEDs that activate in low light conditions.",
+      "price": 12.99,
+      "stock_count": 100
+    },
+    {
+      "name": "Warning Tape",
+      "category_name": "Safety",
+      "tags": ["Versatile", "Heavy-duty", "Compact"],
+      "description": "Bright warning tape for marking hazards or boundaries, with strong adhesive backing and durable material that withstands weather and foot traffic.",
+      "price": 7.99,
+      "stock_count": 160
+    },
+    {
+      "name": "Laundry Detergent",
+      "category_name": "Cleaning",
+      "tags": ["Lightweight", "Eco-friendly", "Handheld", "Budget-friendly"],
+      "description": "A concentrated laundry detergent that removes tough stains and odors, with a fresh scent and formula suitable for all washable fabrics in both machines and hand washing.",
+      "price": 8.99,
+      "stock_count": 180
+    },
+    {
+      "name": "Drawer Organizer",
+      "category_name": "Storage",
+      "tags": ["Multi-purpose", "Classic"],
+      "description": "A modular drawer organizer with adjustable compartments, perfect for sorting utensils, jewelry, or office supplies, made from clear plastic for easy visibility.",
+      "price": 14.99,
+      "stock_count": 120
+    },
+    {
+      "name": "Greenhouse Kit",
+      "category_name": "Gardening",
+      "tags": ["DIY", "Innovative", "Outdoor"],
+      "description": "A portable greenhouse kit for protecting plants from weather, with a sturdy frame and transparent cover, allowing gardeners to extend growing seasons indoors or outdoors.",
+      "price": 149.99,
+      "stock_count": 12
+    },
+    {
+      "name": "Wall Sconce",
+      "category_name": "Lighting",
+      "tags": ["Ergonomic", "Eco-friendly", "Classic", "Waterproof"],
+      "description": "A decorative wall sconce that provides ambient lighting, mounted on walls for hallways or bedrooms, with a stylish design and energy-efficient bulb options.",
+      "price": 49.99,
+      "stock_count": 50
+    },
+    {
+      "name": "Reflective Vest",
+      "category_name": "Safety",
+      "tags": ["Handheld", "Compact", "Power", "Lightweight"],
+      "description": "A high-visibility reflective vest for safety during low-light activities, with adjustable straps and comfortable fabric, essential for cyclists, runners, and workers.",
+      "price": 11.99,
+      "stock_count": 250
+    },
+    {
+      "name": "Oven Cleaner",
+      "category_name": "Cleaning",
+      "tags": ["Durable", "Compact", "High-quality"],
+      "description": "A powerful oven cleaner that dissolves grease and baked-on residue, with a fume-free formula and easy application, making deep cleaning of ovens quick and effective.",
+      "price": 5.99,
+      "stock_count": 100
+    },
+    {
+      "name": "Cabinet Organizer",
+      "category_name": "Storage",
+      "tags": ["Professional", "Heavy-duty"],
+      "description": "A pull-out cabinet organizer for maximizing kitchen storage, with multiple shelves and bins, designed for easy installation and organization of pantry items.",
+      "price": 39.99,
+      "stock_count": 65
+    },
+    {
+      "name": "Plant Pot",
+      "category_name": "Gardening",
+      "tags": ["Ergonomic", "High-quality", "Power"],
+      "description": "A decorative plant pot with drainage holes, available in various sizes and materials, perfect for indoor or outdoor plants, promoting healthy root growth.",
+      "price": 15.99,
+      "stock_count": 200
+    },
+    {
+      "name": "Under-Cabinet Light",
+      "category_name": "Lighting",
+      "tags": ["Waterproof", "Budget-friendly", "Power", "Professional"],
+      "description": "An under-cabinet LED light for task lighting in kitchens, with easy installation and bright illumination, enhancing visibility for cooking and food preparation.",
+      "price": 34.99,
+      "stock_count": 40
+    },
+    {
+      "name": "Lockout Kit",
+      "category_name": "Safety",
+      "tags": ["Adjustable", "Ergonomic"],
+      "description": "A comprehensive lockout kit for preventing accidental machine startups during maintenance, including locks, tags, and devices for safe workplace procedures.",
+      "price": 59.99,
+      "stock_count": 18
+    },
+    {
+      "name": "Bathroom Cleaner",
+      "category_name": "Cleaning",
+      "tags": ["DIY", "Classic", "Waterproof"],
+      "description": "A disinfectant bathroom cleaner that kills germs and prevents mildew, with a convenient spray bottle for easy application on tiles, tubs, and fixtures.",
+      "price": 4.99,
+      "stock_count": 190
+    },
+    {
+      "name": "Coat Rack",
+      "category_name": "Storage",
+      "tags": ["Classic", "Waterproof", "High-quality"],
+      "description": "A stylish wall-mounted coat rack with multiple hooks, providing functional storage for coats, hats, and bags in entryways or hallways.",
+      "price": 29.99,
+      "stock_count": 75
+    },
+    {
+      "name": "Rain Gauge",
+      "category_name": "Gardening",
+      "tags": ["Classic", "Eco-friendly", "Compact"],
+      "description": "An accurate rain gauge for measuring precipitation, with easy-to-read markings and weather-resistant materials, useful for gardeners and meteorology enthusiasts.",
+      "price": 9.99,
+      "stock_count": 90
+    },
+    {
+      "name": "Spotlight",
+      "category_name": "Lighting",
+      "tags": ["Lightweight", "DIY"],
+      "description": "A directional outdoor spotlight with motion activation, providing security lighting for yards or driveways, with adjustable angle and weatherproof design.",
+      "price": 44.99,
+      "stock_count": 35
+    },
+    {
+      "name": "Knee Pads",
+      "category_name": "Safety",
+      "tags": ["Professional", "Durable"],
+      "description": "Comfortable knee pads with adjustable straps, designed to protect knees during kneeling work in gardening or construction, with cushioning for extended comfort.",
+      "price": 16.99,
+      "stock_count": 130
+    },
+    {
+      "name": "Carpet Cleaner",
+      "category_name": "Cleaning",
+      "tags": ["Compact", "Power"],
+      "description": "A deep-clean carpet cleaner with foam technology, removing stains and odors from carpets and upholstery, safe for use with pets and families.",
+      "price": 12.99,
+      "stock_count": 85
+    },
+    {
+      "name": "Jewelry Box",
+      "category_name": "Storage",
+      "tags": ["Lightweight", "Durable", "Power", "Compact"],
+      "description": "An elegant jewelry box with compartments and a lock, providing secure and organized storage for rings, necklaces, and earrings, with a luxurious finish.",
+      "price": 49.99,
+      "stock_count": 45
+    },
+    {
+      "name": "Trellis",
+      "category_name": "Gardening",
+      "tags": ["Innovative", "Outdoor", "Multi-purpose", "Professional"],
+      "description": "A decorative trellis for supporting climbing plants, made from weather-resistant materials, adding vertical interest and structure to gardens and landscapes.",
+      "price": 39.99,
+      "stock_count": 30
+    },
+    {
+      "name": "Vanity Light",
+      "category_name": "Lighting",
+      "tags": ["Lightweight", "Versatile"],
+      "description": "An elegant vanity light designed for bathroom mirrors, providing bright and even illumination for grooming, with a stylish design that complements modern decor.",
+      "price": 69.99,
+      "stock_count": 25
+    },
+    {
+      "name": "Gloves",
+      "category_name": "Safety",
+      "tags": ["Power", "Compact", "Durable"],
+      "description": "Disposable nitrile gloves for hand protection during cleaning or handling chemicals, offering a comfortable fit and reliable barrier against contaminants.",
+      "price": 6.99,
+      "stock_count": 500
+    },
+    {
+      "name": "Toilet Bowl Cleaner",
+      "category_name": "Cleaning",
+      "tags": ["Eco-friendly", "Indoor", "Handheld"],
+      "description": "A powerful toilet bowl cleaner with bleach for deep disinfection, providing long-lasting freshness and stain removal with each use.",
+      "price": 3.99,
+      "stock_count": 240
+    },
+    {
+      "name": "Shoe Rack",
+      "category_name": "Storage",
+      "tags": ["Classic", "Ergonomic"],
+      "description": "A tiered shoe rack for organizing footwear, with a stable design that saves space in entryways or closets, accommodating multiple pairs neatly.",
+      "price": 24.99,
+      "stock_count": 55
+    },
+    {
+      "name": "Hummingbird Feeder",
+      "category_name": "Gardening",
+      "tags": ["High-quality", "Professional", "Innovative", "Indoor"],
+      "description": "A weatherproof hummingbird feeder with easy-fill ports, attracting these colorful birds to gardens with nectar, featuring a durable design and ant moat.",
+      "price": 19.99,
+      "stock_count": 70
+    },
+    {
+      "name": "Recessed Light",
+      "category_name": "Lighting",
+      "tags": ["Compact", "Ergonomic", "Indoor"],
+      "description": "A flush-mounted recessed light for ceilings, providing unobtrusive illumination in living spaces, with energy-efficient bulbs and a sleek, modern appearance.",
+      "price": 29.99,
+      "stock_count": 60
+    },
+    {
+      "name": "Face Shield",
+      "category_name": "Safety",
+      "tags": ["Ergonomic", "Adjustable"],
+      "description": "An adjustable face shield for eye and face protection, with a clear visor and comfortable headband, ideal for medical, industrial, or personal use.",
+      "price": 9.99,
+      "stock_count": 150
+    },
+    {
+      "name": "Drain Cleaner",
+      "category_name": "Cleaning",
+      "tags": ["Professional", "DIY", "Classic", "Budget-friendly"],
+      "description": "An enzyme-based drain cleaner that safely dissolves organic buildup, maintaining clear drains without harsh chemicals, suitable for kitchen and bathroom pipes.",
+      "price": 7.99,
+      "stock_count": 110
+    },
+    {
+      "name": "Wall Shelf",
+      "category_name": "Storage",
+      "tags": ["Eco-friendly", "Handheld", "Waterproof"],
+      "description": "A floating wall shelf for displaying decor or storing items, with a strong mounting system and sleek design that adds style to any room.",
+      "price": 34.99,
+      "stock_count": 40
+    },
+    {
+      "name": "Soil Test Kit",
+      "category_name": "Gardening",
+      "tags": ["Waterproof", "Heavy-duty", "Multi-purpose", "Outdoor"],
+      "description": "A simple soil test kit for checking pH and nutrient levels, providing accurate results to help gardeners optimize soil conditions for better plant growth.",
+      "price": 14.99,
+      "stock_count": 95
+    },
+    {
+      "name": "Path Light",
+      "category_name": "Lighting",
+      "tags": ["Budget-friendly", "Professional", "Adjustable", "Heavy-duty"],
+      "description": "Solar-powered path lights for illuminating walkways and gardens, with decorative designs and automatic activation at dusk, providing safe and eco-friendly lighting.",
+      "price": 19.99,
+      "stock_count": 80
+    },
+    {
+      "name": "Work Gloves",
+      "category_name": "Safety",
+      "tags": ["Ergonomic", "High-quality", "Lightweight", "Waterproof"],
+      "description": "Durable work gloves with excellent grip and flexibility, protecting hands during manual labor, made from reinforced materials for long-term use.",
+      "price": 12.99,
+      "stock_count": 170
+    },
+    {
+      "name": "Fabric Softener",
+      "category_name": "Cleaning",
+      "tags": ["Adjustable", "DIY", "Compact"],
+      "description": "A concentrated fabric softener that reduces static and adds a pleasant scent to laundry, making clothes softer and easier to iron.",
+      "price": 5.49,
+      "stock_count": 140
+    },
+    {
+      "name": "Key Holder",
+      "category_name": "Storage",
+      "tags": ["Innovative", "Heavy-duty"],
+      "description": "A wall-mounted key holder with hooks and compartments, keeping keys and small items organized and easily accessible near entryways.",
+      "price": 15.99,
+      "stock_count": 100
+    },
+    {
+      "name": "Raised Garden Bed",
+      "category_name": "Gardening",
+      "tags": ["Budget-friendly", "Durable", "Professional", "Power"],
+      "description": "An elevated raised garden bed for easier gardening, customizable in size and made from durable materials to keep soil contained and pests at bay.",
+      "price": 79.99,
+      "stock_count": 20
+    },
+    {
+      "name": "Reading Lamp",
+      "category_name": "Lighting",
+      "tags": ["Adjustable", "Lightweight", "Waterproof", "Ergonomic"],
+      "description": "An adjustable reading lamp with focused light, providing comfortable illumination for books or screens, with a flexible arm and dimming options.",
+      "price": 54.99,
+      "stock_count": 45
+    },
+    {
+      "name": "Emergency Blanket",
+      "category_name": "Safety",
+      "tags": ["Durable", "Heavy-duty"],
+      "description": "A compact thermal emergency blanket that reflects body heat, essential for survival kits, providing warmth in cold conditions or emergencies.",
+      "price": 4.99,
+      "stock_count": 300
+    },
+    {
+      "name": "Stain Remover",
+      "category_name": "Cleaning",
+      "tags": ["Compact", "Power", "Outdoor", "Innovative"],
+      "description": "A powerful stain remover for pre-treating tough spots on fabrics, with a safe formula that lifts stains without damaging materials.",
+      "price": 6.49,
+      "stock_count": 160
+    },
+    {
+      "name": "Document Organizer",
+      "category_name": "Storage",
+      "tags": ["Innovative", "Multi-purpose"],
+      "description": "An expandable document organizer with pockets and fasteners, keeping important papers secure and organized for travel or home filing.",
+      "price": 22.99,
+      "stock_count": 85
+    },
+    {
+      "name": "Watering Can",
+      "category_name": "Gardening",
+      "tags": ["Outdoor", "Professional", "Power"],
+      "description": "An ergonomic watering can with a large capacity and comfortable handle, made from durable plastic for easy and efficient plant watering.",
+      "price": 12.99,
+      "stock_count": 120
+    },
+    {
+      "name": "Ceiling Fan",
+      "category_name": "Lighting",
+      "tags": ["Classic", "DIY", "Heavy-duty", "Indoor"],
+      "description": "An energy-efficient ceiling fan with remote control, providing cooling and air circulation in rooms, with adjustable speeds and optional lighting.",
+      "price": 149.99,
+      "stock_count": 15
+    },
+    {
+      "name": "Whistle",
+      "category_name": "Safety",
+      "tags": ["Compact", "Ergonomic", "Heavy-duty", "High-quality"],
+      "description": "A loud emergency whistle for signaling help, compact and lightweight for carrying in pockets or kits, with a piercing sound for maximum audibility.",
+      "price": 2.99,
+      "stock_count": 400
+    },
+    {
+      "name": "Air Freshener",
+      "category_name": "Cleaning",
+      "tags": ["Multi-purpose", "Outdoor", "Professional", "Eco-friendly"],
+      "description": "A long-lasting air freshener that eliminates odors and leaves a pleasant scent, with adjustable intensity for customizing the ambiance in rooms.",
+      "price": 3.99,
+      "stock_count": 280
+    },
+    {
+      "name": "Photo Album",
+      "category_name": "Storage",
+      "tags": ["DIY", "Ergonomic", "High-quality", "Indoor"],
+      "description": "An elegant photo album with protective sleeves, designed to store and display memories, with an expandable design for adding more pages over time.",
+      "price": 19.99,
+      "stock_count": 60
+    },
+    {
+      "name": "Garden Cart",
+      "category_name": "Gardening",
+      "tags": ["Power", "Lightweight", "High-quality", "Multi-purpose"],
+      "description": "A heavy-duty garden cart with wheels for transporting heavy loads, featuring a large bed and sturdy handles for easy maneuvering in yards.",
+      "price": 99.99,
+      "stock_count": 10
+    },
+    {
+      "name": "Table Lamp",
+      "category_name": "Lighting",
+      "tags": ["Professional", "Outdoor", "Adjustable", "Classic"],
+      "description": "A classic table lamp with dimmable lighting, adding decorative warmth to desks or side tables, with a timeless design and energy-efficient bulb.",
+      "price": 64.99,
+      "stock_count": 35
+    },
+    {
+      "name": "Flashlight",
+      "category_name": "Safety",
+      "tags": ["Innovative", "Outdoor", "Heavy-duty", "Classic"],
+      "description": "A bright rechargeable flashlight with waterproof casing, providing reliable illumination for emergencies or outdoor activities, with multiple light modes.",
+      "price": 19.99,
+      "stock_count": 90
+    },
+    {
+      "name": "Disinfectant Spray",
+      "category_name": "Cleaning",
+      "tags": ["Multi-purpose", "Versatile", "Budget-friendly", "Heavy-duty"],
+      "description": "An antibacterial disinfectant spray that kills germs on surfaces, fast-drying and safe for multiple materials, ideal for quick sanitization.",
+      "price": 5.99,
+      "stock_count": 200
+    },
+    {
+      "name": "CD Rack",
+      "category_name": "Storage",
+      "tags": ["Lightweight", "Durable"],
+      "description": "A compact rotating CD rack for storing and organizing music collections, with easy access to discs and a space-saving design for media rooms.",
+      "price": 29.99,
+      "stock_count": 50
+    },
+    {
+      "name": "Advanced Hammer",
+      "category_name": "Tools",
+      "tags": ["Heavy-duty", "Indoor", "Versatile", "Durable"],
+      "description": "An advanced hammer with an ergonomic handle for reduced fatigue, made from high-quality steel for durability and precision in driving nails and other fasteners.",
+      "price": 25.99,
+      "stock_count": 120
+    },
+    {
+      "name": "Cordless Drill",
+      "category_name": "Tools",
+      "tags": ["Heavy-duty", "Compact", "Budget-friendly"],
+      "description": "A cordless drill with lithium-ion battery for portability, offering variable speed and torque settings for drilling and screwing in various materials.",
+      "price": 79.99,
+      "stock_count": 60
+    },
+    {
+      "name": "Adjustable Wrench",
+      "category_name": "Tools",
+      "tags": ["Eco-friendly", "DIY", "Durable"],
+      "description": "An adjustable wrench with a wide jaw capacity, designed for turning nuts and bolts of different sizes, built with chrome vanadium steel for strength and longevity.",
+      "price": 14.99,
+      "stock_count": 90
+    },
+    {
+      "name": "Precision Screwdriver Set",
+      "category_name": "Tools",
+      "tags": ["Adjustable", "Professional", "Indoor", "Lightweight"],
+      "description": "A precision screwdriver set with magnetic tips and ergonomic handles, ideal for electronics repair and fine assembly work, stored in a compact case.",
+      "price": 19.99,
+      "stock_count": 150
+    },
+    {
+      "name": "Pipe Wrench",
+      "category_name": "Plumbing",
+      "tags": ["Professional", "Lightweight", "Adjustable", "Heavy-duty"],
+      "description": "A heavy-duty pipe wrench for gripping and turning pipes, with an adjustable jaw and cast iron construction for reliable performance in plumbing tasks.",
+      "price": 29.99,
+      "stock_count": 40
+    },
+    {
+      "name": "Showerhead Filter",
+      "category_name": "Plumbing",
+      "tags": ["Lightweight", "Innovative", "Waterproof"],
+      "description": "A showerhead filter that reduces chlorine and impurities, providing cleaner water while saving on water usage with its efficient flow design.",
+      "price": 24.99,
+      "stock_count": 70
+    },
+    {
+      "name": "Bathroom Sink",
+      "category_name": "Plumbing",
+      "tags": ["Classic", "Adjustable"],
+      "description": "A stylish bathroom sink with a durable porcelain finish, featuring an easy-to-clean surface and overflow protection for modern bathroom installations.",
+      "price": 99.99,
+      "stock_count": 25
+    },
+    {
+      "name": "Plunger",
+      "category_name": "Plumbing",
+      "tags": ["Power", "Indoor"],
+      "description": "An effective plunger with a durable rubber cup, designed for clearing clogs in toilets and drains, compact for easy storage in bathrooms.",
+      "price": 8.99,
+      "stock_count": 100
+    },
+    {
+      "name": "Bathroom Scale",
+      "category_name": "Plumbing",
+      "tags": ["Innovative", "Budget-friendly", "Ergonomic", "Outdoor"],
+      "description": "A digital bathroom scale with accurate weight measurement and a sleek design, featuring auto-on and step-off technology for convenience.",
+      "price": 19.99,
+      "stock_count": 80
+    },
+    {
+      "name": "Voltage Tester",
+      "category_name": "Electrical",
+      "tags": ["Eco-friendly", "Heavy-duty", "Outdoor"],
+      "description": "A safe voltage tester for checking electrical circuits, with a non-contact design and LED indicators for quick and easy voltage detection.",
+      "price": 12.99,
+      "stock_count": 110
+    },
+    {
+      "name": "Cable Ties",
+      "category_name": "Electrical",
+      "tags": ["Durable", "Innovative", "Adjustable"],
+      "description": "Reusable cable ties for organizing wires and cables, made from durable nylon with a secure locking mechanism for neat and tidy installations.",
+      "price": 5.99,
+      "stock_count": 200
+    },
+    {
+      "name": "Doorbell",
+      "category_name": "Electrical",
+      "tags": ["Waterproof", "Outdoor", "Power"],
+      "description": "A wireless doorbell with a loud chime and easy installation, providing clear notification of visitors with multiple tune options.",
+      "price": 29.99,
+      "stock_count": 50
+    },
+    {
+      "name": "Power Strip",
+      "category_name": "Electrical",
+      "tags": ["Compact", "Ergonomic", "Adjustable", "Professional"],
+      "description": "A surge-protected power strip with multiple outlets and USB ports, offering protection for devices and convenient charging in homes or offices.",
+      "price": 24.99,
+      "stock_count": 75
+    },
+    {
+      "name": "Battery Pack",
+      "category_name": "Electrical",
+      "tags": ["High-quality", "Multi-purpose"],
+      "description": "A portable battery pack with high capacity and fast-charging capabilities, perfect for powering devices on the go with multiple USB outputs.",
+      "price": 39.99,
+      "stock_count": 60
+    },
+    {
+      "name": "Cabinet Hinges",
+      "category_name": "Hardware",
+      "tags": ["Indoor", "Compact", "Ergonomic", "Innovative"],
+      "description": "Smooth-operating cabinet hinges with adjustable settings, made from durable steel for long-lasting use in kitchen and furniture installations.",
+      "price": 9.99,
+      "stock_count": 130
+    },
+    {
+      "name": "Wall Anchors",
+      "category_name": "Hardware",
+      "tags": ["Heavy-duty", "Lightweight", "Budget-friendly", "Professional"],
+      "description": "Strong wall anchors for secure mounting, easy to install and suitable for various wall types, providing reliable support for shelves and fixtures.",
+      "price": 7.99,
+      "stock_count": 180
+    },
+    {
+      "name": "Picture Hanging Kit",
+      "category_name": "Hardware",
+      "tags": ["Classic", "Handheld", "Innovative"],
+      "description": "A complete picture hanging kit with hooks, nails, and level, designed for easy and damage-free hanging of frames and artwork on walls.",
+      "price": 12.99,
+      "stock_count": 95
+    },
+    {
+      "name": "Drawer Slides",
+      "category_name": "Hardware",
+      "tags": ["Versatile", "Lightweight", "Multi-purpose", "Power"],
+      "description": "Heavy-duty drawer slides for smooth operation, easy to install and supporting high weight loads for cabinets and furniture drawers.",
+      "price": 19.99,
+      "stock_count": 70
+    },
+    {
+      "name": "Furniture Legs",
+      "category_name": "Hardware",
+      "tags": ["Compact", "Budget-friendly"],
+      "description": "Adjustable furniture legs for tables and chairs, providing stability and style with height adjustment for leveling on uneven surfaces.",
+      "price": 14.99,
+      "stock_count": 85
+    },
+    {
+      "name": "Interior Paint",
+      "category_name": "Paint",
+      "tags": ["Power", "Handheld", "Compact"],
+      "description": "Low-odor interior paint with washable finish, formulated with eco-friendly ingredients for safe application in homes, available in various colors.",
+      "price": 29.99,
+      "stock_count": 40
+    },
+    {
+      "name": "Paint Roller",
+      "category_name": "Paint",
+      "tags": ["Multi-purpose", "Budget-friendly", "Innovative"],
+      "description": "An efficient paint roller with a smooth nap for even coverage, reusable and designed for quick and professional painting of walls and ceilings.",
+      "price": 8.99,
+      "stock_count": 120
+    },
+    {
+      "name": "Drop Cloth",
+      "category_name": "Paint",
+      "tags": ["Power", "Versatile"],
+      "description": "A large reusable drop cloth for protecting floors during painting, made from durable material that absorbs spills and is easy to clean.",
+      "price": 15.99,
+      "stock_count": 65
+    },
+    {
+      "name": "Paint Tray",
+      "category_name": "Paint",
+      "tags": ["Indoor", "Eco-friendly", "DIY", "Ergonomic"],
+      "description": "A durable paint tray with a built-in liner, easy to clean and designed for professional painters to hold and distribute paint evenly.",
+      "price": 4.99,
+      "stock_count": 150
+    },
+    {
+      "name": "Paint Stirrer",
+      "category_name": "Paint",
+      "tags": ["Professional", "Adjustable"],
+      "description": "A durable paint stirrer for mixing paints and coatings, reusable and designed to reach the bottom of cans for thorough blending.",
+      "price": 2.99,
+      "stock_count": 200
+    }
+  ]
+}

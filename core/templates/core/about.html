@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+
+{% block title %}Search Page{% endblock %}
+
+{% block content %}
+<h2>Overview</h2>
+<p>In this assignment, you will build a simple Django project that models products, categories, and tags. You'll set up the appropriate relationships between these models, populate the database with sample data using the Django admin interface, and create a basic HTML page that allows users to search and filter products based on description, category, and tags. The main goal is to demonstrate your ability to work with Django models, querysets, and views to build functional features.</p>
+<p>This assignment should be completed within 48 hours. Please see the submission guidelines below.</p>
+
+<h2>Objectives</h2>
+<ul>
+    <li>Create Django models with correct relationships.</li>
+    <li>Populate the database using Django's admin interface.</li>
+    <li>Implement search and filter functionality.</li>
+    <li>Build an HTML page for user interaction.</li>
+    <li>Demonstrate proficiency in writing Django queries.</li>
+</ul>
+
+<h2>Requirements</h2>
+
+<h3>Data Population</h3>
+<p>Use the Django admin interface to populate the database with sample data.</p>
+<ul>
+    <li>Create at least 5 categories, 10 tags, and 20 products.</li>
+</ul>
+
+<h3>Search and Filter Functionality</h3>
+<p>Create a simple HTML page that allows users to:</p>
+<ul>
+    <li>Search products by description.</li>
+    <li>Filter products by category.</li>
+    <li>Filter products by tags.</li>
+    <li>Users should be able to combine search and filter options.</li>
+</ul>
+
+<h3>Front-End</h3>
+<p></p>You may use Django templates or any front-end framework of your choice.</p>
+<p>The design and styling are not important.</p>
+<p>The focus is on functionality and query implementation.</p>
+
+<h3>Deliverables</h3>
+<p>A complete Django project with all source code.</p>
+<p>A README.md file that includes:</p>
+<ul>
+    <li>Instructions on how to set up and run the project.</li>
+    <li>Any assumptions or additional notes.</li>
+    <li>If using a front-end framework, include build instructions.</li>
+</ul>
+<h3>Submission Guidelines</h3>
+<p>Upload your project to a Git repository (e.g., GitHub, GitLab).</p>
+<p>Ensure all files are committed and pushed to the repository.</p>
+<p>Provide the repository link for review.</p>
+<h3>Evaluation Criteria</h3>
+<ul>
+    <li>Functionality: Correct implementation of models, relationships, and querying.</li>
+    <li>Code Quality: Cleanliness, readability, and organization of code.</li>
+</ul>
+
+<p>Documentation: Clarity of setup instructions and comments within the code.</p>
+<p>Query Proficiency: Effective use of Django querysets to achieve required functionality.</p>
+<p>Completion: Fulfillment of all specified requirements.</p>
+<h3>AI Policy</h3>
+<p>Through this assignment, we aim to evaluate your non-AI-assisted technical skills. While AI
+tools (such as ChatGPT, Copilot, or similar) are permitted for assistance, they should not
+replace your own problem-solving and coding abilities. If you use any AI tools, the following
+conditions must be met:
+Understanding and Ownership: You must fully understand any AI-generated code that you include in your submission. You will be asked questions about your implementation, and inability to explain your code will result in disqualification.
+Enhancement and Originality: AI-generated code must be modified and expanded upon. Submitting raw AI-generated code without significant personal contributions will not be accepted and will result in immediate disqualification.
+Attribution: If you use AI to generate any part of the code, clearly document how and where it was used in your README.md file. You can also provide attribution as in-line comments or docstrings.
+
+By submitting this assignment, you acknowledge that you understand and adhere to this AI policy.</p>
+{% endblock %}

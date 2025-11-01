@@ -1,0 +1,75 @@
+{% extends "base.html" %} 
+{% block title %}
+Search Page
+{% endblock %} 
+
+{% block content %}
+<form method="POST" action="{% url 'search' %}" class="search-form">
+  {% csrf_token %}
+  <h1>Product Search & Filter</h1>
+
+  <div class="form-columns">
+    <div class="form-column">
+      <div class="form-group">{{ form.search.label_tag }} {{ form.search }}</div>
+      <div class="form-group">{{ form.category.label_tag }} {{ form.category }}</div>
+    </div>
+
+    <div class="form-column">
+      <div class="form-group">{{ form.tags.label_tag }} {{ form.tags }}</div>
+      <p>press and hold Ctrl/Cmd to select multiple options</p>
+      <button type="submit" class="apply-filters-btn">Apply Filters</button>
+    </div>
+  </div>
+</form>
+
+<hr />
+
+<div class="products-table">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Product Name</th>
+        <th>Description</th>
+        <th>Category</th>
+        <th>Tags</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for product in page_obj %}
+      <tr>
+        <td class="product-name">{{ product.name }}</td>
+        <td class="product-description">{{ product.description }}</td>
+        <td class="product-category">{{ product.category.name }}</td>
+        <td class="product-tags">
+          {% for tag in product.tags.all %}
+          <span class="tag">{{ tag }}</span>
+          {% if not forloop.last %}
+          <br />
+          {% endif %} {% endfor %}
+        </td>
+        <td class="product-price">${{ product.price }}</td>
+      </tr>
+      {% empty %}
+      <tr>
+        <td colspan="4" class="no-products">No products match your criteria.</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<div class="pagination">
+  {% if page_obj.has_previous %}
+  <a href="?{{ request.GET.urlencode }}&page=1">&laquo; first</a>
+  <a href="?{{ request.GET.urlencode }}&page={{ page_obj.previous_page_number }}">previous</a>
+  {% endif %}
+
+  <span class="current"> Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}. </span>
+
+  {% if page_obj.has_next %}
+  <a href="?{{ request.GET.urlencode }}&page={{ page_obj.next_page_number }}">next</a>
+  <a href="?{{ request.GET.urlencode }}&page={{ page_obj.paginator.num_pages }}">last &raquo;</a>
+  {% endif %}
+</div>
+{% endblock %}
