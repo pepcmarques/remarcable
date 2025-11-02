@@ -52,7 +52,7 @@ This application is result of a assignment which requested a simple Django proje
 1. Clone this project
 
 ```
-git clone git@github.com:pepcmarques/remarcable.git
+git clone https://github.com/pepcmarques/remarcable.git
 ```
 
 2. Go to the `remarcable` directory
