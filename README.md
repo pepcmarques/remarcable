@@ -63,8 +63,12 @@ cd remarcable
 
 3. Install a Python virtualenv
 
+The installation depends on your operational system
+
 ```
-python -m venv .venv
+python -m venv .venv   # Mac or Linux (perhaps it needs to be: python3 -m venv .venv)
+
+py -3 -m venv .venv    # Windows
 ```
 
 4. Activate the `virtual environment`
@@ -84,7 +88,9 @@ pip install -r requirements.txt
 6. Run the project
 
 ```
-python manage.py runserver
+python manage.py runserver   # Mac or Linux
+
+py -3 manage.py runserver    # Windows
 ```
 
 7. Open a browser and type on the URL: `http://127.0.0.1:8000/`
@@ -101,6 +107,8 @@ python manage.py createsuperuser
 
 Follow the instructions to create the super user.
 
+To enter in the admin environment, open the browser and navigate to `http://127.0.0.1:8000/admin`
+
 ### Populating the database.
 
 The database is pre-populated. However if you have any problems, follow the steps below:
@@ -108,10 +116,18 @@ The database is pre-populated. However if you have any problems, follow the step
 1. Delete the `db.sqlite3` file
 2. From the project root, run:
 
+- Mac or Linux
 ```
 python manage.py migrate
 
-python manage.py populatedb
+python manage.py populatedb 
+```
+
+- Windows
+```
+py -3 manage.py migrate
+
+py -3 manage.py populatedb 
 ```
 
 **OR**
@@ -132,9 +148,63 @@ python manage.py populatedb
 
 - There is a Django command to populate the database `python manage.py populatedb` with initial data, described on the `Populating Database` section
 - I created the `.gitignore` file using `https://gitignore.io`
-- I decided to use Django template, instead of a different frontend framework - I would use Next.JS - to simplifying installlation and running.
-- However, I used Django Rest Framerwork to create a search endpoint `http://127.0.0.1:8000/api/search/`
+- I decided to use Django template, instead of a different frontend framework to simplifying installlation and running - I would use Next.JS.
+- I am not using API calls for this assignment, but as an **extra feature**, I used Django Rest Framerwork to create a search endpoint `http://127.0.0.1:8000/api/search/`. By using this search endpoint you can use names, instead of objects. See example on the next section.
 - Both, form and api, use a service in `services.py`
+
+## API Endpoints
+
+### Search Product
+
+Retrieves the products based on a search.
+
+**Endpoint:** `/api/search/`
+
+**Method:** `POST`
+
+**Request Body:**
+
+The request body should be a JSON object with the following properties:
+
+| Property | Type | Required | Description |
+|---|---|---|---|
+| `search` | `string` | No | Text containing part of the Name or description of a product. |
+| `category` | `string` | No | Category name. |
+| `tags` | `list of strings` | No | List of tags of a product. |
+
+**Example Request Body:**
+
+```json
+{
+  "search": "wrench",
+  "category": "Tools",
+  "tags": ["DIY"]
+}
+```
+
+**Example Response:**
+
+```json
+HTTP 200 OK
+Allow: OPTIONS, POST
+Content-Type: application/json
+Vary: Accept
+
+[
+    {
+        "id": 99,
+        "name": "Adjustable Wrench",
+        "description": "An adjustable wrench with a wide jaw capacity, designed for turning nuts and bolts of different sizes, built with chrome vanadium steel for strength and longevity.",
+        "price": "14.99",
+        "category": "Tools",
+        "tags_list": [
+            "DIY",
+            "Durable",
+            "Eco-friendly"
+        ]
+    }
+]
+```
 
 ## Artificial Intelligence (AI)
 
