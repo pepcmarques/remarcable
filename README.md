@@ -185,11 +185,6 @@ The request body should be a JSON object with the following properties:
 **Example Response:**
 
 ```json
-HTTP 200 OK
-Allow: OPTIONS, POST
-Content-Type: application/json
-Vary: Accept
-
 [
     {
         "id": 99,
