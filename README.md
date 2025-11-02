@@ -160,6 +160,19 @@ To enter in the admin environment, open the browser and navigate to `http://127.
 The database is pre-populated. However if you have any problems, follow the steps below:
 
 1. Delete the `db.sqlite3` file
+
+**Mac or Linux**
+
+```
+rm db.sqlite3
+```
+
+**Windows**
+
+```
+del db.sqlite3
+```
+
 2. From the project root, run:
 
 **Mac**
