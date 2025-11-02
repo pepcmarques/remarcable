@@ -65,21 +65,41 @@ cd remarcable
 
 The installation depends on your operational system
 
-```
-python -m venv .venv   # Mac or Linux (perhaps it needs to be: python3 -m venv .venv)
+**Mac**
 
+```
+python -m venv .venv
+```
+
+**Linux**
+
+```
+python3 -m venv .venv
+```
+
+**Windows**
+
+```
 py -3 -m venv .venv    # Windows
 ```
 
 4. Activate the `virtual environment`
 
-```
-source .venv/bin/activate     # For Linux or Mac
+**Mac or Linux**
 
-.venv\Scripts\activate        # For Windows
+```
+source .venv/bin/activate
+```
+
+**Windows**
+
+```
+.venv\Scripts\activate
 ```
 
 5. Install dependencies
+
+**Mac, Linux, or Windows**
 
 ```
 pip install -r requirements.txt
@@ -87,9 +107,21 @@ pip install -r requirements.txt
 
 6. Run the project
 
-```
-python manage.py runserver   # Mac or Linux
+**Mac**
 
+```
+python manage.py runserver
+```
+
+**Linux**
+
+```
+python3 manage.py runserver
+```
+
+**Windows**
+
+```
 py -3 manage.py runserver    # Windows
 ```
 
@@ -101,8 +133,22 @@ py -3 manage.py runserver    # Windows
 
 Stop the running service by pressing `control-c`, and run:
 
+**Mac**
+
 ```
 python manage.py createsuperuser
+```
+
+**Linux**
+
+```
+python3 manage.py createsuperuser
+```
+
+**Windows**
+
+```
+py -3 manage.py createsuperuser
 ```
 
 Follow the instructions to create the super user.
@@ -116,7 +162,7 @@ The database is pre-populated. However if you have any problems, follow the step
 1. Delete the `db.sqlite3` file
 2. From the project root, run:
 
-- Mac or Linux
+**Mac**
 
 ```
 python manage.py migrate
@@ -124,7 +170,15 @@ python manage.py migrate
 python manage.py populatedb
 ```
 
-- Windows
+**Linux**
+
+```
+python3 manage.py migrate
+
+python3 manage.py populatedb
+```
+
+**Windows**
 
 ```
 py -3 manage.py migrate
