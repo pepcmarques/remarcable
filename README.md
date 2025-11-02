@@ -117,17 +117,19 @@ The database is pre-populated. However if you have any problems, follow the step
 2. From the project root, run:
 
 - Mac or Linux
+
 ```
 python manage.py migrate
 
-python manage.py populatedb 
+python manage.py populatedb
 ```
 
 - Windows
+
 ```
 py -3 manage.py migrate
 
-py -3 manage.py populatedb 
+py -3 manage.py populatedb
 ```
 
 **OR**
@@ -154,6 +156,8 @@ py -3 manage.py populatedb
 
 ## API Endpoints
 
+As described on the **Notes** section, I am not using API calls for this assignment, but as an extra feature.
+
 ### Search Product
 
 Retrieves the products based on a search.
@@ -166,11 +170,11 @@ Retrieves the products based on a search.
 
 The request body should be a JSON object with the following properties:
 
-| Property | Type | Required | Description |
-|---|---|---|---|
-| `search` | `string` | No | Text containing part of the Name or description of a product. |
-| `category` | `string` | No | Category name. |
-| `tags` | `list of strings` | No | List of tags of a product. |
+| Property   | Type              | Required | Description                                                   |
+| ---------- | ----------------- | -------- | ------------------------------------------------------------- |
+| `search`   | `string`          | No       | Text containing part of the Name or description of a product. |
+| `category` | `string`          | No       | Category name.                                                |
+| `tags`     | `list of strings` | No       | List of tags of a product.                                    |
 
 **Example Request Body:**
 
@@ -186,18 +190,14 @@ The request body should be a JSON object with the following properties:
 
 ```json
 [
-    {
-        "id": 99,
-        "name": "Adjustable Wrench",
-        "description": "An adjustable wrench with a wide jaw capacity, designed for turning nuts and bolts of different sizes, built with chrome vanadium steel for strength and longevity.",
-        "price": "14.99",
-        "category": "Tools",
-        "tags_list": [
-            "DIY",
-            "Durable",
-            "Eco-friendly"
-        ]
-    }
+  {
+    "id": 99,
+    "name": "Adjustable Wrench",
+    "description": "An adjustable wrench with a wide jaw capacity, designed for turning nuts and bolts of different sizes, built with chrome vanadium steel for strength and longevity.",
+    "price": "14.99",
+    "category": "Tools",
+    "tags_list": ["DIY", "Durable", "Eco-friendly"]
+  }
 ]
 ```
 
