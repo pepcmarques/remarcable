@@ -122,7 +122,7 @@ python3 manage.py runserver
 **Windows**
 
 ```
-py -3 manage.py runserver    # Windows
+python manage.py runserver
 ```
 
 7. Open a browser and type on the URL: `http://127.0.0.1:8000/`
@@ -148,7 +148,7 @@ python3 manage.py createsuperuser
 **Windows**
 
 ```
-py -3 manage.py createsuperuser
+python manage.py createsuperuser
 ```
 
 Follow the instructions to create the super user.
@@ -181,9 +181,9 @@ python3 manage.py populatedb
 **Windows**
 
 ```
-py -3 manage.py migrate
+python manage.py migrate
 
-py -3 manage.py populatedb
+python manage.py populatedb
 ```
 
 **OR**
